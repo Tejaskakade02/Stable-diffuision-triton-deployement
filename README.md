@@ -209,7 +209,7 @@ This setup gives you a **fully self-contained, production-ready deployment pipel
 Example Output
 
 
-![Model Output](assets/output.png)
+![Model Output](assests/output.png)
 
-![Model Output](assets/output.png)
+![Model Output](assests/output1.png)
 
