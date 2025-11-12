@@ -1,0 +1,35 @@
+name: "stable_diffusion"
+backend: "python"
+max_batch_size: 1
+
+input [
+  {
+    name: "prompt"
+    data_type: TYPE_STRING
+    dims: [1]
+  }
+]
+
+output [
+  {
+    name: "generated_image"
+    data_type: TYPE_STRING
+    dims: [1]
+  }
+]
+
+instance_group [
+  {
+    kind: KIND_GPU
+    count: 1
+  }
+]
+
+# Model parameters (optional but helps for clarity)
+parameters: {
+  key: "MODEL_VERSION"
+  value: { string_value: "1" }
+}
+
+# Ensure the model can use GPU or CPU as needed
+dynamic_batching { }
