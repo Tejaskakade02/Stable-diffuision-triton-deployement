@@ -195,8 +195,12 @@ docker rmi triton-sd-turbo
 ## 🏁 Summary
 
 ✅ Lightweight Stable Diffusion Turbo
+
 ✅ Deployed with NVIDIA Triton Server
+
 ✅ GPU-accelerated inference
+
 ✅ Simple HTTP client for testing
+
 
 This setup gives you a **fully self-contained, production-ready deployment pipeline** for **text-to-image inference**.
