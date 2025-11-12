@@ -204,3 +204,12 @@ docker rmi triton-sd-turbo
 
 
 This setup gives you a **fully self-contained, production-ready deployment pipeline** for **text-to-image inference**.
+
+
+Example Output:
+
+```
+![Model Output](assets/output.png)
+
+![Model Output](assets/output.png)
+```
